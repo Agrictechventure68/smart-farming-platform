@@ -1,3 +1,6 @@
 # Smart Farming Platform
-This platform uses technology to improve agriculture for farmers and agribusinesses.
+
+An integrated AgricTech solution using modern technologies to support farmers, agribusinesses, logistics, and data intelligence.
+
+
 
