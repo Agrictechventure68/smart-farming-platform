@@ -1,6 +1,11 @@
+<<<<<<< HEAD
 # Smart Farming Platform
 
-An integrated AgricTech solution using modern technologies to support farmers, agribusinesses, logistics, and data intelligence.
+Smart Farming Project- Developed locally, Empowering Agriculture with Technology.
 
 
 
+=======
+# smart-farming-platform
+A digital platform integrating tech into modern agriculture
+>>>>>>> 7e11752ed0c77bf23500cc4f665f7e6f69625a5e
