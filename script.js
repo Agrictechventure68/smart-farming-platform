@@ -6,6 +6,11 @@ function alertWelcome() {
 }
 //=== Add the translation script below ===
 const languageSelector = document.getElementById("language-selector");
+languageSelector.addEventListener("change", function() {
+  const selectedLang = this.value;
+  alert("Language switch to:  " + selectedLang);
+  //Future enhancement content dynamically here
+});
 
 // Default language
 loadLanguage("en");
