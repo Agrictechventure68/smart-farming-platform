@@ -8,17 +8,35 @@
   <link rel="stylesheet" href="assets/css/style.css" />
   <script src="script.js" defer></script>
 </head>
-<body>
+<>
+
   <!-- Navigation Bar -->
-<!-- Navigation -->
-<nav class="navbar">
-  <div class="logo">SmartFarming</div>
-  <ul class="nav-links">
-    <li><a href="#about">About</a></li>
-    <li><a href="#features">Features</a></li>
-    <li><a href="#contact">Contact</a></li>
-  </ul>
-</nav>
+  <header class="navbar">
+    <div class="nav-container">
+      <h1 class="logo">Agri_Empower</h1>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#mission">Mission</a></li>
+          <li><a href="#products">Products</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Language Selector -->
+  <div id="language-selector" style="text-align: right; padding: 10px;">
+    <label for="language">Language:</label>
+    <select id="language">
+      <option value="en">English</option>
+      <option value="yo">Yoruba</option>
+      <option value="ig">Igbo</option>
+      <option value="ha">Hausa</option>
+      <option value="pidgin">Pidgin English</option>
+    </select>
+  </div>
 
   <!-- Language Selector -->
   <div id="language-selector" style="text-align: right; padding: 10px;">
@@ -33,7 +51,7 @@
   </div>
 
   <!-- Hero Section -->
-  <section class="hero">
+  <section id="hero" class="hero">
     <div class="hero-content">
       <h1>Empowering Agriculture Through Technology</h1>
       <p>Smart solutions for modern farming — powered by data, driven by innovation.</p>
@@ -41,45 +59,54 @@
       <a href="#features" class="cta-button">Explore Features</a>
     </div>
   </section>
-<section class="mission-section">
-  <div class="Container">
-    <h2>Our Mission</h2>
-    <p>
-      Our mission is to bridge knowledge gaps, simplify farming processes, and connect
-      agricultural stakeholders through practical e-learning, smart diagnostics, and 
-      a vibrant e-commerce ecosystem - empowering every farmer with accessible technology, 
-      data-driven insights, and inclusive opportunities for growth and sustainability.
-    </p>
-  </div>
+
+  <!-- Mission Section -->
+  <section id="mission" class="mission-section">
+    <div class="Container">
+      <h2>Our Mission</h2>
+      <p>
+        Our mission is to bridge knowledge gaps, simplify farming processes, and connect
+        agricultural stakeholders through practical e-learning, smart diagnostics, and 
+        a vibrant e-commerce ecosystem - empowering every farmer with accessible technology, 
+        data-driven insights, and inclusive opportunities for growth and sustainability.
+      </p>
+    </div>
   </section>
-  <div class="vision">
+
+  <!-- Vision Section -->
+  <section id="vision" class="vision">
     <h2>Our Vision</h2>
     <p>To be the leading platform for smart farming, empowering farmers with the tools they need to succeed.</p>
-  </div>
-</section>
+  </section>
+
   <!-- About Section -->
   <section id="about" class="section">
     <h2>About the Platform</h2>
-<section class="mission-section">
-  <div class="Container">
-    <h2>Our Mission</h2>
-    <p>
-      Our mission is to bridge knowledge gaps, simplify farming processes, and connect
-      agricultural stakeholders through practical e-learning, smart diagnostics, and 
-      a vibrant e-commerce ecosystem - empowering every farmer with accessible technology, 
-      data-driven insights, and inclusive opportunities for growth and sustainability.
-    </p>
-  </div>
-</section>
-<div class="vision">
-  <h2>Our Vision</h2>
-  <p>To be the leading platform for smart farming, empowering farmers with the tools they need to succeed.</p>
-</div>
+    <div class="about-content">
+      <p>Agri_Empower is a smart farming platform designed to revolutionize agriculture through technology. We provide farmers with the tools they need to optimize their operations, increase yields, and connect with markets.</p>
+    </div>
+  </section>
+
+  <!-- Products Section -->
+  <section id="products" class="section">
+    <!-- Products content goes here -->
+  </section>
+
+  <!-- Content Section -->
+  <section id="content" class="section">
+    <!-- Additional content goes here -->
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section">
+    <!-- Contact content goes here -->
+  </section>
 
   <!-- Footer -->
   <footer>
     <p>&copy; 2025 Agrictechventure68. All rights reserved.</p>
   </footer>
-
-</body>
-</html>
+  
+<!-- No additional code needed here. The issues and recommendations have been addressed above. 
+To retain the summary and guidance for future reference, you can move this comment block to the top of your HTML file, outside the <html> tag, as developer documentation. 
+No code should be placed after </body> or </html>. -->
